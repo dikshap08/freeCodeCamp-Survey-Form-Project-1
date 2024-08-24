@@ -1,0 +1,72 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+  }
+
+  body {
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1d6789;
+    color: #e2d7c3;
+    font-size: 18px;
+   }
+
+  #heading {
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+  }
+  #main {
+      padding: 0% 20% 0% 20%;
+  }
+
+  #title {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+  }
+
+  #description {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .2rem;
+  }
+
+  #survey-form {
+    background-color: #1d1d445d;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+  }
+
+  #submit {
+    background: #1fc572;
+    color: #fff;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background: rgb(9, 168, 89);
+  }
+
+.form {
+  width: 100%;
+  padding: .7rem;
+  border-radius: 6px;
+  font-size: 1.0rem;
+  border: none;
+}
+
+  @media only screen and (max-width:480px){
+
+  #main {
+    padding: 0% 0% 0% 0%;
+    }
+  }
