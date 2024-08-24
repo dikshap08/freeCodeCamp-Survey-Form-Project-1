@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Your feedback matters!!</h1>
+    <p id="description">We would love to have a feedback from our college students about our teaching staff, curriculum, environment and many other things. We are going to try our best to provide you with best resources and teaching methods.  </p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>You are studying in:</strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="options">Select one option</option>
+                <option value="FYBAF">FYBAF</option>
+                <option value="FYBMS">FYBMS</option>
+                <option value="FYBSC">FYBSC</option>
+                <option value="FYBSC(CS)">FYBSC(CS)</option>
+                <option value="FYBSC(IT)">FYBSC(IT)</option>
+                <option value="11th">11th</option>
+                <option value="12th">12th</option>
+                <option value="Others">Others</option>
+            </select>
+         </div>
+          <div id="button-area"><br>
+            <label id="features"><b>Features you like about our college: </b></label><br>
+            <input type="checkbox" name="1" value="staff" checked> Faculty<br>
+            <input type="checkbox" name="2" value="library"> Library<br>
+            <input type="checkbox" name="3" value="AP"> Academic Programs<br>
+            <input type="checkbox" name="4" value="SO">Student Organizations<br>
+            <input type="checkbox" name="5" value="SR">Sports and Recreation<br>
+            <input type="checkbox" name="2" value="SA"> Study Abroad Programs<br>
+            <input type="checkbox" name="2" value="CS"> Career Services<br>
+            <input type="checkbox" name="2" value="MS"> Mess Services<br>
+            <input type="checkbox" name="2" value="Labs">Laboratories<br>
+          </div>
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Programming language you want to be taught at our college: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="option2">Select your favourite language</option>
+                <option value="C">C (Programming Language)</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+          
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion for us?</label><br>
+            <textarea style= height:100px; class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
